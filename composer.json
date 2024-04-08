@@ -1,0 +1,24 @@
+{
+    "name": "overlu/mini-aws",
+    "type": "package",
+    "description": "Mini Aws Package",
+    "keywords": [
+        "mini",
+        "aws",
+        "swoole"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^8.0",
+        "aws/aws-sdk-php": "^3.279.0",
+        "overlu/mini-framework": "~3.1.0"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
+    },
+    "autoload": {
+        "psr-4": {
+            "MiniAws\\": "src/"
+        }
+    }
+}
